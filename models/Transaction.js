@@ -10,6 +10,6 @@ const TransactionSchema = new mongoose.Schema({
         type : Number,
         required : [true , 'amount is required']
     }
-})
+}) 
 
 module.exports = mongoose.model('Transaction', TransactionSchema)

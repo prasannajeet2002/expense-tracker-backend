@@ -1,7 +1,7 @@
 const Transaction = require("../models/Transaction");
 
 // get all transactions
-// GET method
+// GET method 
 exports.getAllTransactions = async (req, res, next) => {
   try {
     const transactions = await Transaction.find();
